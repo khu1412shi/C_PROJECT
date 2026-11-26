@@ -6,13 +6,30 @@
 int main()
 {
     char *wordList[] = {
-        "hello", "computer", "programming", "school",
-        "keyboard", "science", "technology", "learning",
-        "future", "internet", "language", "student",
-        "creative", "knowledge", "digital", "software",
-        "function", "variable", "network", "design",
-        "apple", "beautiful", "success", "practice",
-        "window", "garden", "freedom", "education"
+         "an", "am", "as", "at", "be", "by", "do", "go", "he", "if",
+         "in", "is", "it", "me", "my", "no", "of", "on", "or", "ox",
+         "so", "to", "up", "us", "we", "ad", "ah", "aw", "ax", "ay",
+         "eh", "em", "en", "er", "ex", "ha", "hi", "ho", "id", "jo",
+         "ka", "la", "ma", "mm", "oh", "oi", "om", "ow", "oy", "uh",
+
+         "ace", "act", "add", "age", "ago", "air", "all", "and", "ant", "any",
+         "ape", "are", "arm", "art", "ash", "ask", "bad", "bag", "ban", "bar",
+        "bat", "bed", "bee", "beg", "bet", "big", "bit", "bow", "box", "boy",
+        "bus", "buy", "can", "cap", "car", "cat", "cow", "cry", "cup", "cut",
+        "day", "den", "dew", "die", "dig", "dog", "dry", "ear", "eat", "egg",
+
+       "able", "acid", "aged", "also", "area", "army", "away", "baby", "back", "bake",
+       "ball", "band", "bank", "base", "bath", "bear", "beat", "been", "bell", "belt",
+       "best", "bird", "blue", "boat", "body", "book", "born", "both", "bowl", "busy",
+       "call", "calm", "came", "camp", "card", "care", "cart", "case", "cash", "city",
+       "club", "coat", "cold", "come", "cook", "cool", "copy", "dark", "data", "date",
+
+       "about", "above", "actor", "admit", "adopt", "adult", "after", "again", "agent", "agree",
+       "ahead", "alarm", "album", "alert", "alien", "alive", "allow", "alone", "along", "angel",
+       "anger", "angle", "angry", "apart", "apple", "apply", "arena", "argue", "arise", "array",
+       "aside", "audio", "avoid", "award", "aware", "badly", "basic", "beach", "began", "begin",
+       "being", "below", "bench", "birth", "black", "blame", "blank", "blind", "block", "blood"
+
     };
 
     char target[500] = "";
